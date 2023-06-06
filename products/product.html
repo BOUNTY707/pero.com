@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="icon" href="../images/instagram.svg">
+    <!-- FONT AWESOM LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- font -->
+    <link rel="stylesheet" href="../fonts/stylesheet.css">
+    <!-- slick min css link -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"> -->
+    <!-- css file -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+
+<body>
+    <!-- HEADER STARTED -->
+    <header class="header container">
+        <label for="nav-togler" class="header__nav-togler">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="rasm" class="header-img">
+        </a>
+        <nav class="header__nav">
+            <a href="../about/about.html">About us</a>
+            <a href="#">Products</a>
+            <a href="#">Videolarimiz</a>
+            <a href="#">Yangiliklar</a>
+            <a href="#">Foydalanish shartlari</a>
+        </nav>
+        <div class="header__additional">
+            <div class="header__langs">
+                <button class="header__langs-btn">
+                    UZ
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="header__langs-list">
+                    <button class="header__list-item">RU</button>
+                    <button class="header__list-item">EN</button>
+                </div>
+            </div>
+            <button class="header__contact-btn">
+                <b>+998 99 011 89 34</b>
+                <span>aloqa uchun</span>
+            </button>
+        </div>
+    </header>
+
+    <input type="checkbox" id="nav-togler" hidden>
+
+    <div class="header__mobile-nav">
+        <div class="header__mobile-header">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="rasm" class="header-img">
+            </a>
+
+            <label for="nav-togler" class="header__nav-closer">
+                <i class="fa-solid fa-x"></i>
+            </label>
+        </div>
+
+        <div class="header__mobile-links">
+            <a href="../about/about.html" class="header__mobile-link">About us</a>
+            <a href="#" class="header__mobile-link">Top Products</a>
+            <a href="#" class="header__mobile-link">Videolarimiz</a>
+            <a href="#" class="header__mobile-link">Yangiliklar</a>
+            <a href="#" class="header__mobile-link">Foydalanish shartlari</a>
+        </div>
+
+    </div>
+
+    <!-- product main started -->
+    <div class="wrapper">
+        <div class="product__main">
+            <div class="container">
+                <div class="product-bg">
+                    <img src="./product-img/product__bg-img.png" alt="" class="product__bg-img">
+                </div>
+                <!-- product pat -->
+                <div class="product__pat-wrap">
+                    <img src="./product-img/product-pat1.png" alt="" class="product-pat1">
+                    <img src="./product-img/product-pat2.png" alt="" class="product-pat2">
+                    <img src="./product-img/product-pat3.png" alt="" class="product-pat3">
+                    <img src="./product-img/product-pat4.png" alt="" class="product-pat4">
+                </div>
+                <!-- main top started -->
+                <div class="product__main-top">
+                    <div class="main__select">
+                        <h1 class="main__select-title">
+                            <span class="title-ru">Бумажные продукции</span>
+                            <span class="title-uz">Blog posts</span>
+                        </h1>
+                        <button class="select__button">последняя обновления : 21.05</button>
+                        <div class="select__wrap">
+                            <select>
+                                <option>Исходная сортировка</option>
+                                <option>Исходная</option>
+                                <option>сортировка</option>
+                            </select>
+                            <i class="select__icon fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="all__page-link">
+                        <a href="../index.html">Home page</a>
+                        <span>></span>
+                        <a href="#">Products</a>
+                    </div>
+                </div>
+
+                <!-- product main slide -->
+                <div class="product__main-slide">
+                    <div class="product__main-links">
+                        <label for="main-link1">
+                            <input class="link-inp" type="radio" name="main-link" id="main-link1" checked hidden>
+                            <span class="main-link">Перьевые салфетки</span>
+                        </label>
+                        <label for="main-link2">
+                            <input class="link-inp" type="radio" name="main-link" id="main-link2" hidden>
+                            <span class="main-link">Бумажные полотенца<spana>
+                        </label>
+                        <label for="main-link3">
+                            <input class="link-inp" type="radio" name="main-link" id="main-link3" hidden>
+                            <span class="main-link">Диспансер к столу</span>
+                        </label>
+                        <label for="main-link4">
+                            <input class="link-inp" type="radio" name="main-link" id="main-link4" hidden>
+                            <span class="main-link">Диспансер к столу</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="product__carousel-wrap">
+                    <div class="carousel">
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img1.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img2.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img1.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img2.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img2.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img1.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img2.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img2.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="slide-block">
+                                <div class="product-icons">
+                                    <label for="modal1" class="modalLabel1">
+                                        <img src="./product-img/product-icon1.png" alt="" class="product__icons1">
+                                    </label>
+                                    <a href="../product-page/product-page.html">
+                                        <img src="./product-img/product-icon2.png" alt="" class="product__icons2">
+                                    </a>
+                                </div>
+                                <img src="./product-img/product-img1.png" alt="">
+                                <p>Бумажные cалфетки (Asian Pack Aroma) 310</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagination__wrap">
+                        <span class="pagination__left-icon"><i class="fa-solid fa-chevron-left"></i></span>
+                        <div class="pagination-item">
+                            <label for="pagination1">
+                                <input class="pagination-inp" type="radio" id="pagination1" name="pagination" checked
+                                    hidden>
+                                <span class="pagination-number">1</span>
+                            </label>
+                            <label for="pagination2">
+                                <input class="pagination-inp" type="radio" id="pagination2" name="pagination" hidden>
+                                <span class="pagination-number">2</span>
+                            </label>
+                            <label for="pagination3">
+                                <input class="pagination-inp" type="radio" id="pagination3" name="pagination" hidden>
+                                <span class="pagination-number">3</span>
+                            </label>
+                            <label for="pagination4">
+                                <input class="pagination-inp" type="radio" id="pagination4" name="pagination" hidden>
+                                <span class="pagination-number">4</span>
+                            </label>
+                        </div>
+                        <span class="pagination__right-icon"><i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="modal1" hidden>
+
+                <!-- modal -->
+                <div class="modal__wrap">
+                    <label for="modal1" class="modal1-label"></label>
+                    <div class="modal__dialog">
+                        <div class="modal__content">
+                            <div class="modal__info">
+                                <h1 class="modal__title">ВЛАЖНЫЕ CАЛФЕТКИ BABY LUX 509</h1>
+                                <label for="modal1">
+                                    <div class="modal__close">&times;</div>
+                                </label>
+                                <div class="modal__info-size">
+                                    <p>Артикул: <b>509</b></p>
+                                    <p>Размер:<b>20×15</b></p>
+                                </div>
+                                <div class="info-btn">
+                                    <a href="#!">
+                                        <img src="./product-img/arrow-right.png" alt="">
+                                    </a>
+                                    <button>Перейти</button>
+                                </div>
+                            </div>
+                            <img src="./product-img/modal-img.png" alt="" class="modal__img">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER STARTED -->
+    <footer>
+        <div class="container">
+            <div class="footer__logo">
+                <img src="../images/footer-logo.png" alt="Footer logo">
+                <p class="footer__logo-text">
+                    Quo is the most easier way for transaction
+                    with your friends and family, No matter where are you.
+                    An exceptional way for make your life one step easier.
+                </p>
+
+                <div class="footer__icon">
+                    <a href="#!"><img src="../images/fecebook-img.svg" alt="Feceboook"></a>
+                    <a href="#!"><img src="../images/twitter.svg" alt="Twitter"></a>
+                    <a href="#!"><img src="../images/instagram.svg" alt="Instagram"></a>
+                </div>
+                <p class="footer__icon-text">Yumshoq va mayin salfetkalar, boshqa mahsulotlarning eng sifatlisni siz
+                    Pero'dan topasiz. Barcha qulayliklar </p>
+
+            </div>
+
+            <div class="footer__info">
+                <ul class="footer__info-item">
+                    <h2 class="footer__info-title">Company</h2>
+                    <li><a href="#!">About Us</a></li>
+                    <li><a href="#!">Contact Us</a></li>
+                    <li><a href="#!">Support</a></li>
+                    <li><a href="#!">News/Blog</a></li>
+                </ul>
+                <ul class="footer__info-item footer__info-none">
+                    <h2 class="footer__info-title">Terms</h2>
+                    <li><a href="#!">Privacy Policy</a></li>
+                    <li><a href="#!">Terms of Usage</a></li>
+                    <li><a href="#!">Areas of </a></li>
+                    <li><a href="#!">coverage</a></li>
+                </ul>
+                <ul class="footer__info-item">
+                    <h2 class="footer__info-title ">Contact</h2>
+                    <li><a href="#!">84/E/2 West</a></li>
+                    <li><a href="#!">Jafrabad,</a></li>
+                    <li><a href="#!">Liverpool, Uk</a></li>
+                    <li><a href="#!">+8801757410907</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <section class="footer__bottom">
+        <div class="container">
+            <span>
+                Copyright © PERO | Designed by <a href="#!">abba marketing</a>
+            </span>
+            <span>
+                - Powered by <a href="https://t.me/Mexrob_Ako">Mexrob</a>
+            </span>
+        </div>
+    </section>
+    <!-- FOOTER FINISHED -->
+
+
+
+    <!-- Jquery 3.7.0 cdn link -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> -->
+    <!-- slick carousel min js cdn link -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+    <!-- product js -->
+    <!-- <script src="./js/product.js"></script> -->
+</body>
+
+</html>
