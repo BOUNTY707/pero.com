@@ -202,7 +202,8 @@ button {
 }
 
 .header__contact-btn span {
-    font-size: 9px;
+    font-family: 'Zona Pro';
+    font-size: 10px;
     font-weight: 100;
 }
 
