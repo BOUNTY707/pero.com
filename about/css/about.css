@@ -451,7 +451,7 @@ option {
 
     .about-img {
         transform: translateY(-80px);
-        max-width: 100%;
+        max-width: 113%;
     }
 
     .about-bg1 {
@@ -559,7 +559,8 @@ option {
     }
     .about__info-number {
         padding: 10px 20px;
-        height: 130px;
+        height: 110px;
+        margin-bottom: 100px;
     }
     .number__item-title {
         padding-top: 13px;
@@ -568,5 +569,20 @@ option {
     }
     .number__item-img {
         width: 50px;
+    }
+
+    .company__paper-title{
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .project-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .company__paper-play img {
+        width: 50px;
+        height: 50px;
     }
 }
