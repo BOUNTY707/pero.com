@@ -558,9 +558,12 @@ option {
         margin-bottom: 20px;
     }
     .about__info-number {
-        padding: 10px 20px;
+        padding: 10px 8px;
         height: 110px;
         margin-bottom: 100px;
+    }
+    .number__item:nth-child(3){
+        margin-top: -7px;
     }
     .number__item-title {
         padding-top: 13px;

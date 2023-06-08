@@ -41,7 +41,8 @@ button {
 /* SCROLL STARTDER */
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0px;
+    height: 0px;
 }
 
 /* Track */
@@ -439,8 +440,7 @@ button {
 }
 
 .products__card:hover {
-    box-shadow: 5px 5px 10px #d4bca9;
-    transform: scale(1.1);
+    box-shadow: 0px 5px 14px #d4bca9;
 }
 
 .products__card-img {
@@ -630,18 +630,21 @@ button {
     text-align: end;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: end;
+    align-items: flex-end;
     position: relative;
     top: -100px;
 }
 
 
 .about__more-btn {
-    font-size: 26.4303px;
+    font-family: 'Zona Pro';
+    font-size: 26px;
     line-height: 32px;
+    width: 190px;
     text-transform: lowercase;
     color: #1C7197;
-    padding: 10px 58px;
+    padding: 10px 40px;
     background: #FFC898;
     border-radius: 84.6758px;
     transition: .2s;
@@ -681,19 +684,19 @@ button {
 .about-pat1 {
     position: absolute;
     top: -500px;
-    left: -950px;
+    left: -1200px;
 }
 
 .about-pat2 {
     position: absolute;
-    top: -400px;
-    right: -350px;
+    top: -425px;
+    right: -150px;
 }
 
 .about-pat3 {
     position: absolute;
     top: -30px;
-    right: 500px;
+    right: 750px;
 }
 
 /* ABOUT USE FINISHED */
@@ -724,7 +727,7 @@ button {
 
 .videos__item {
     width: 33%;
-    height: 123px;
+    height: 130px;
     border-radius: 15px;
     background-color: #D9D9D9;
     opacity: 0.2;
@@ -958,6 +961,7 @@ button {
     margin-bottom: 55px;
     min-height: 100px;
     max-height: 360px;
+    resize: none;
 }
 
 .left__elements input::placeholder,
@@ -1181,7 +1185,7 @@ footer .container {
     }
 
     .download {
-        gap: 24px;        
+        gap: 24px;
     }
 
     .download-btn {
@@ -1280,6 +1284,7 @@ footer .container {
     .about {
         padding-top: 100px;
     }
+
     .about__wrapper {
         display: flex;
         flex-direction: column;
@@ -1324,7 +1329,7 @@ footer .container {
 
     .project__title {
         text-align: center;
-        font-size: 42px;
+        font-size: 40px;
         line-height: 41px;
     }
 
@@ -1397,7 +1402,7 @@ footer .container {
         padding: 25px 30px;
     }
 
-    .videos__item.active{
+    .videos__item.active {
         transform: scale(1.1);
         width: 80%;
         margin-left: 10%;
@@ -1437,7 +1442,28 @@ footer .container {
         font-size: 10px;
     }
 
-    .footer__info ul li{
+    .footer__info ul li {
         font-size: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+    footer .container {
+        display: block;
+        padding-left: 17px;
+        padding-right: 10px;
+    }
+
+    .footer__info {
+        display: flex;
+        gap: 40px;
+    }
+
+    .project__title{
+        font-size: 32px;
+    }
+
+    .footer__bottom span {
+        font-size: 12px;
     }
 }

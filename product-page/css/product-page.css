@@ -176,6 +176,7 @@ a {
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
 }
 
 
@@ -186,9 +187,9 @@ a {
 
 .modal__content {
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,6 +279,7 @@ a {
 
 /* modal 2 */
 .modal__wrap2 {
+    overflow-y: scroll;
     position: fixed;
     top: 0;
     left: 0;
@@ -299,15 +301,11 @@ a {
     display: block;
 }
 
-#modalWrap2:checked.modal__wrap1 {
-    display: none;
-}
-
 .modal__content2 {
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,19 +350,13 @@ a {
 .modal__img2 {
     margin-left: -70px;
 }
-
-
+/*modal animation */
 .show {
     display: block;
 }
 
 .hide {
     display: none;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
 }
 
 @keyframes fade {
@@ -374,6 +366,10 @@ a {
 
     100% {
         opacity: 1;
+    }
+
+    0%{
+        opacity: 0;
     }
 }
 
