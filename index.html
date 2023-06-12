@@ -26,6 +26,7 @@
             <a href="./about/about.html">About us</a>
             <a href="./products/product.html">Products</a>
             <a href="./posts/videos.html">Videolarimiz</a>
+            <a href="./new-product/new-product.html">New Product</a>
             <a href="#">Yangiliklar</a>
             <a href="#">Foydalanish shartlari</a>
         </nav>
@@ -61,6 +62,7 @@
             <a href="./about/about.html" class="header__mobile-link">About us</a>
             <a href="./products/product.html" class="header__mobile-link">Top Products</a>
             <a href="./posts/videos.html" class="header__mobile-link">Videolarimiz</a>
+            <a href="./new-product/new-product.html">New Product</a>
             <a href="#" class="header__mobile-link">Yangiliklar</a>
             <a href="#" class="header__mobile-link">Foydalanish shartlari</a>
         </div>
@@ -69,43 +71,48 @@
     <!-- HEADER FINISHED -->
 
     <!-- MAIN STARTED -->
-    <!-- <main class="main">
+    <main class="main">
         <div class="container">
-            <div class="main__info">
-                <div class="main-image-1">
-                    <button>
-                        <img class="finger-img" src="./images/main-finger.png" alt="">
-                    </button>
-                    <span class="main__text">Ozgartirish ucun bosing</span>
-                </div>
-                <div class="main-image-2"></div>
-                <div class="main-image-3">
-                    <h1 class="main__img-title">Продукцию «Pero» </h1>
-                    <p>Мы верим, что каждый имеет возможность пользоваться продукцией самого высокого качества, поэтому
-                        наши
-                        сильные бренды делают качество «Pero» доступным.</p>
-                </div>
+            <div class="main__images">
+                <button class="main__click">
+                    <img src="./images/main-finger.png" alt="">
+                    <p class="main__click-text">Ozgartirish ucun bosing</p>
+                </button>
+
+                <!-- <img src="./images/main-img1.png" alt="Main Click" class="main__clicker"> -->
+                <img src="./images/paper.png" alt="Pero paper">
+                <img src="./images/hand.png" alt="Main Hand" class="main-hand">
 
                 <div class="main__pat-wrap">
-                    <img class="main__pat1" src="./images/main-pat1.png" alt="Main Rasm">
-                    <img class="main__pat2" src="./images/main-pat2.png" alt="Main Rasm">
-                    <img class="main__pat3" src="./images/main-pat3.png" alt="Main Rasm">
-                    <img class="main__pat4" src="./images/main-pat4.png" alt="Main Rasm">
+                    <img src="./images/main-pat1.png" alt="" class="main-pat1">
+                    <img src="./images/main-pat2.png" alt="" class="main-pat2">
+                    <img src="./images/main-pat3.png" alt="" class="main-pat3">
+                    <img src="./images/main-pat4.png" alt="" class="main-pat4">
                 </div>
 
-                <div class="main__hand">
-                    <img class="hand-img" src="./images/main-hand.png" alt="Main Hand">
+            </div>
+
+            <div class="main__overflow">
+                <div class="main__pages">
+                    <div class="main__page">
+                        <div class="main__page-container">
+                            <h1 class="main__page-title">Продукцию «Pero»</h1>
+                            <p class="main__page-text">
+                                Мы верим, что каждый имеет возможность пользоваться продукцией
+                                самого высокого качества, поэтому наши сильные бренды делают качество «Pero» доступным.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="main__footer">
-                <h2>Biz haqimizda batafsil</h2>
-                <span></span>
+                <a href="#" class="main__footer-title">Biz haqimizda batafsil</a> <br>
+                <p class="main__footer-border"></p>
             </div>
+
         </div>
-
-
-    </main> -->
+    </main>
     <!-- MAIN FINISHED -->
 
     <!-- PRODUCT SLIDE STARTED -->
@@ -117,11 +124,8 @@
             <div class="products__cards">
 
                 <div class="arrow__wrap">
-                    <button class="products__arrow products__arrow-left"><svg fill="none" stroke="currentColor"
-                            stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"></path>
-                        </svg>
+                    <button class="products__arrow products__arrow-left">
+                        <img src="./images/arrow-left.svg" alt="">
                     </button>
                 </div>
 
@@ -175,11 +179,8 @@
 
 
                 <div class="arrow__wrap">
-                    <button class="products__arrow products__arrow-right"><svg fill="none" stroke="currentColor"
-                            stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
-                        </svg>
+                    <button class="products__arrow products__arrow-right">
+                        <img src="./images/arrow-right.png" alt="">
                     </button>
                 </div>
 
@@ -246,6 +247,9 @@
     <!-- VIDEOS STARTED -->
     <section class="videos">
         <div class="container">
+            <div class="videos__bg-wrap">
+                <img src="./images/videos-bg.png" alt="" class="videos-bg">
+            </div>
             <h2 class="project__title">Bizning videolar</h2>
             <p class="project__text">bizning 20 dan ortiq video larimiz va vloglarimiz mavjud</p>
 

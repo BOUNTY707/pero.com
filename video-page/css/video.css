@@ -172,4 +172,9 @@ a {
         font-size: 14px;
         line-height: 21px;
     }
+
+    .video__text-title{
+        font-size: 20px;
+        line-height: 25px;
+    }
 }

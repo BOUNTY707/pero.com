@@ -618,6 +618,11 @@ a {
         padding: 4px 45px;
     }
 
+    .info-btn {
+        width: 158px;
+        padding: 5px 29px 5px 9px;
+    }
+
     /* modal 2 */
     .modal__content2 {
         width: 300px;
@@ -652,4 +657,5 @@ a {
     .footer__bottom {
         text-align: center;
     }
+
 }
