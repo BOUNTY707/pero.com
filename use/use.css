@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #006259;
+}
+
+body {
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    background-color: #016258;
+}
+
+.use__main {
+    overflow: hidden;
+    padding: 73px 20px 200px 20px;
+    position: relative;
+}
+
+.use-bg {
+    position: absolute;
+}
+
+.use__bg-img {
+    position: absolute;
+    right: 50%;
+    top: -50px;
+    transform: translateX(80%);
+    background: url(image_2022-06-27_18-02-27.png);
+    mix-blend-mode: screen;
+    opacity: 0.8;
+    filter: blur(91.7009px);
+    /* transform: rotate(-179.65deg); */
+}
+
+.use__pat-wrap {
+    position: absolute;
+}
+
+.use-pat1 {
+    position: absolute;
+    top: -20px;
+    left: -140px;
+}
+
+.use-pat2 {
+    position: absolute;
+    top: 730px;
+    left: 800px;
+}
+
+
+.use-pat3 {
+    position: absolute;
+    top: 400px;
+    left: -200px;
+}
+
+.use-pat4 {
+    position: absolute;
+    top: 0px;
+    left: 900px;
+}
+
+.use-pat5 {
+    position: absolute;
+    top: 500px;
+    left: 900px;
+}
+
+.use-pat6 {
+    position: absolute;
+    top: 810px;
+    left: -180px;
+}
+
+.use__main .container {
+    max-width: 900px;
+}
+
+.use__main-top {
+    margin-bottom: 73px;
+}
+
+.use__title-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.use-title {
+    font-weight: 700;
+    font-size: 52.2487px;
+    line-height: 64px;
+    color: #FFE5CE;
+    z-index: 2;
+}
+
+.use__btn {
+    background: #FFE5CE;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #006259;
+    padding: 5px 22px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.all__page-link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.6801px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.buy__use-title {
+    margin-top: 100px;
+}
+
+.top-text {
+    font-family: 'Zona Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 166.5%;
+    color: #FFFFFF;
+    margin-top: 40px;
+    max-width: 870px;
+}
+
+/* media */
+
+@media(max-width: 850px) {
+    .use-title {
+        font-size: 33px;
+    }
+}
+
+@media(max-width: 650px) {
+
+    .use__title-wrap {
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .use-title {
+        line-height: 64px;
+        font-size: 34px;
+    }
+
+    .buy__use-title {
+        margin-top: 50px;
+    }
+
+    .use__btn {
+        display: none;
+    }
+
+    .all__page-link {
+        text-align: center;
+    }
+
+    .top-text {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    /* pat */
+
+    .use-pat1 {
+        top: -41px;
+        left: -18px;
+        width: 55px;
+    }
+
+    .use-pat3 {
+        position: absolute;
+        top: 530px;
+        left: 260px;
+        width: 103px;
+    }
+}
+
+@media(max-width: 414px) {
+    .all__page-link {
+        font-size: 12px;
+    }
+
+    .use-title {
+        font-size: 26px;
+    }
+}
