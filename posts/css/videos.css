@@ -121,6 +121,7 @@ a {
     border-radius: 9px;
     cursor: pointer;
     transition: .3s;
+    z-index: 2;
 }
 
 .card-item:hover {
@@ -164,7 +165,7 @@ a {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 8px;
+    font-size: 11px;
     line-height: 19px;
     color: #FFFFFF;
     background: #016258;
@@ -173,6 +174,13 @@ a {
     align-items: center;
     gap: 7px;
     padding: 6px 8px;
+    transition: .2s;
+}
+
+.card__info-link:hover {
+    font-family: 'Zona Pro';
+    font-style: italic;
+    font-weight: 900;
 }
 
 .pagination__wrap {
